@@ -9,13 +9,30 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var firstCircle: UIView!
-    
+    @IBOutlet weak var redLightView: UIView!
+    @IBOutlet weak var yellowLightView: UIView!
+    @IBOutlet weak var greenLightView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupLights()
+
         
-        firstCircle.layer.cornerRadius = 65
+    }
+    
+    private func setupLights() {
+        
+        redLightView.layer.cornerRadius = 65
+        redLightView.backgroundColor = UIColor.red
+        redLightView.alpha = 0.3
+        
+        yellowLightView.layer.cornerRadius = 65
+        yellowLightView.backgroundColor = UIColor.yellow
+        yellowLightView.alpha = 0.3
+        
+        greenLightView.layer.cornerRadius = 65
+        greenLightView.backgroundColor = UIColor.green
+        greenLightView.alpha = 0.3
         
     }
 

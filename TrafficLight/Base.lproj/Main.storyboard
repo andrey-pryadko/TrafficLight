@@ -52,7 +52,9 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="firstCircle" destination="1O6-Jn-ggb" id="BrJ-Ke-970"/>
+                        <outlet property="greenLightView" destination="3Gw-Tf-XnM" id="qzU-RJ-iyh"/>
+                        <outlet property="redLightView" destination="1O6-Jn-ggb" id="BrJ-Ke-970"/>
+                        <outlet property="yellowLightView" destination="WHo-jK-auO" id="KK4-VH-uup"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
